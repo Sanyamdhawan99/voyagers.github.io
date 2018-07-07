@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+.outer{
+	
+	padding:0px;
+	margin:0px;
+	display:block;
+	border: 1px solid white;
+	position:relative;
+}
+#topic {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:60px;
+    -webkit-animation-name: topic;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-iteration-count:infinite;
+}
+.w3-myfont {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size:25px;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes topic {
+    0% {left: 0px;}
+    50% {left: 80px;transform:rotate(20deg);}
+    100%{left:0px;}
+}
+
+.galstart{
+	margin:0px 0px 0px 0px;
+	height:500px;
+	padding:0px;
+	border: 1px solid red;
+}
+background-image
+{
+	background-size:contain;
+}
+  #home1{
+     position: relative;
+     -webkit-animation :bg 8s;
+     -webkit-animation-iteration-count:infinite;
+	 }
+@-webkit-keyframes bg
+	{
+		0%{background-color:pink;opacity:1;}
+		20%{background-color:#5DADE2;}
+		40%{background-color:#E74C3C;}
+		60%{background-color:purple;}
+		80%{background-color:blue;}
+		100%{background-color:pink;}
+	}	 
+@-webkit-keyframes example {
+    0%   {background-color: red;background-image:url(1.jpg);}
+    25%  {background-color: yellow;background-image:url(2.jpg);}
+    50%  {background-color: blue;background-image:url(3.jpg);}
+    100% {background-color: green;background-image:url(pwgirl.png);}
+}
+
+@-webkit-keyframes example1 {
+    0%   {background-color: yellow;background-image:url(pwgirl.png);}
+    25%  {background-color: red;background-image:url(../../python/html/media/bgimage.jpg)}
+    50%  {background-color: green;background-image:url(../../python/html/media/image2.jpg);}
+    100% {background-color: blue;background-image:url(../../python/html/media/bg.jpg);}
+}
+@-webkit-keyframes example2 {
+     0%   {background-color: red;background-image:url(1.jpg);}
+    25%  {background-color: yellow;background-image:url(2.jpg);}
+    50%  {background-color: blue;background-image:url(3.jpg);}
+    100% {background-color: green;background-image:url(pwgirl.png);}
+}
+
+@-webkit-keyframes example3 {
+      0%   {background-color: yellow;background-image:url(pwgirl.png);}
+    25%  {background-color: red;background-image:url(../../python/html/media/bgimage.jpg)}
+    50%  {background-color: green;background-image:url(../../python/html/media/image2.jpg);}
+    100% {background-color: blue;background-image:url(../../python/html/media/bg.jpg);}
+}
+.inner4{
+	height:150px;
+	width: 150px;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	display:inline-block;
+	border: 1px solid white;
+	float:left;
+}
+.inner{
+	height:150px;
+	width: 150px;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	display:inline-block;
+	border: 1px solid white;
+	float:left;
+	-webkit-transition:width 2.6s,border-radius 2.6s,background 1s;
+	-webkit-animation-name:example;
+	-webkit-animation-duration:4s;
+	-webkit-animation-iteration-count:infinite;
+}
+.inner:hover
+{
+	-webkit-animation-play-state:paused;
+	width:300px;
+	border-radius:50%;
+	background:#FCC;
+}
+.inner1:hover
+{
+	-webkit-animation-play-state:paused;
+	width:300px;
+	border-radius:50%;
+	background:#FCC;
+}
+.inner2:hover
+{
+	-webkit-animation-play-state:paused;
+	width:300px;
+	border-radius:50%;
+	background:#FCC;
+}
+.inner3:hover
+{
+	-webkit-animation-play-state:paused;
+	width:300px;
+	border-radius:50%;
+	background:#FCC;
+	
+}
+.inner1{
+	height:150px;
+	width: 150px;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	display:inline-block;
+	border: 1px solid white;
+	float:left;
+	-webkit-animation-name:example1;
+	-webkit-transition:width 2.6s,border-radius 2.6s,background-color;
+	-webkit-animation-duration:4s;
+	-webkit-animation-iteration-count:infinite;
+}
+.inner2{
+	height:150px;
+	width: 150px;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	display:inline-block;
+	border: 1px solid white;
+	float:left;
+	-webkit-animation-name:example2;
+	-webkit-transition:width 2.6s,border-radius 2.6s,background-color;
+	-webkit-animation-duration:4s;
+	-webkit-animation-iteration-count:infinite;
+}
+.inner3{
+	height:150px;
+	width: 150px;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	display:inline-block;
+	border: 1px solid white;
+	float:left;
+	-webkit-animation-name:example3;
+	-webkit-transition:width 2.6s,border-radius 2.6s,background-color;
+	-webkit-animation-duration:4s;
+	-webkit-animation-iteration-count:infinite;
+}
